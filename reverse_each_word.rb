@@ -5,3 +5,5 @@ array.collect do |word|
   drow = word.reverse
   reversed.push(drow)
 end
+reversed.join(" ")
+end
